@@ -1,0 +1,22 @@
+.heroPage {
+  padding: 270px 0 0 70px;
+  text-align: left;
+  &__titles {
+    width: 550px;
+    font-family: var(--heading_font);
+    font-style: normal;
+    line-height: normal;
+    text-align: left;
+  }
+  &__title {
+    font-size: var(--title_size_1);
+    font-weight: var(--text_weight_bold);
+  }
+  &__text {
+    padding: 0 50px 0 0;
+    font-size: var(--text-size_1);
+    font-weight: var(--text_weight_normal);
+    line-height: var(----text_height);
+    color: var(--gray);
+  }
+}

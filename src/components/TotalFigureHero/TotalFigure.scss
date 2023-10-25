@@ -1,0 +1,54 @@
+.figure {
+  width: 680px;
+  height: 710px;
+  position: absolute;
+  right: 0;
+  top: 0px;
+  transform: scale(1);
+  overflow: hidden;
+  z-index: 2;
+
+  &__blue {
+    width: 317px;
+    height: 1008px;
+    transform: rotate(45deg);
+    flex-shrink: 0;
+    border-radius: 158.5px;
+    background: var(--bluegradient);
+    position: absolute;
+    top: -200px;
+    bottom: 0;
+    right: 0px;
+  }
+  &__red {
+    width: 317px;
+    height: 560px;
+    flex-shrink: 0;
+    border-radius: 158.5px;
+    background: var(--redgradient);
+    position: absolute;
+    right: 246px;
+    bottom: 0;
+  }
+  &__hero {
+    object-fit: cover;
+    border-radius: inherit;
+    position: relative;
+    bottom: -79px;
+  }
+  &__info {
+    position: absolute;
+    background-color: var(--white);
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 20px 20px;
+  }
+  .members {
+    top: 280px;
+    right: 180px;
+  }
+  .hours {
+    bottom: 100px;
+    left: 10px;
+  }
+}

@@ -1,0 +1,90 @@
+:root {
+  // --------------------COLORS------------------------
+  --bluegray: #666ca3;
+  --darkblue: #13183f;
+  --gray: #83869a;
+  --pink: #ffa7c3;
+  --white: #fff;
+  --redgradient: linear-gradient(180deg, #ff6f48 0.04%, #f02aa6 100%);
+  --pinkgradient: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0.5) 100%
+    ),
+    linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  --bluegradient: linear-gradient(180deg, #4851ff 0%, #f02aa6 100%);
+  --lightbluegradient: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0.5) 100%
+    ),
+    linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+
+  //-----------------------FONTS------------------------------
+  --heading_font: Plus Jakarta Sans, sans-serif;
+  // title size
+  --title_size_1: 56px;
+  --title_size_2: 40px;
+  --title_size_3: 32px;
+  --title_size_4: 24px;
+  // title weight
+  --title_weight: 800;
+  // title height
+  --title_height: 40px;
+  // text size
+  --text-size_1: 18px;
+  --text-size_2: 16px;
+  // text weight
+  --text_weight_normal: 500;
+  --text_weight_bold: 700;
+  // text height
+  --text_height: 28px;
+}
+
+// ---------------STYLES-------------------
+
+.App {
+  text-align: center;
+  font-size: 50px;
+  font-feature-settings: "clig" off, "liga" off;
+}
+
+// heading default
+
+// btn default
+
+.btn {
+  width: 167px;
+  height: 56px;
+  flex-shrink: 0;
+  color: var(--white);
+
+  &__darkblue {
+    border-radius: 28px;
+    background: var(--darkblue);
+    border-color: var(--darkblue);
+  }
+
+  &__darkblue:hover {
+    background: var(--bluegray);
+    border-color: var(--bluegray);
+  }
+
+  &__redgradient {
+    border-radius: 31.5px;
+    background: var(--redgradient);
+    border-color: var(--redgradient);
+  }
+  &__redgradient:hover {
+    background: var(--pinkgradient);
+  }
+  &__bluegradient {
+    border-radius: 28px;
+    background: var(--bluegradient);
+    border-color: var(--bluegradient);
+  }
+  &__bluegradient:hover {
+    background: var(--lightbluegradient);
+    border-color: var(--lightbluegradient);
+  }
+}
