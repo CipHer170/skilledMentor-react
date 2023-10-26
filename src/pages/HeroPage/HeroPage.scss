@@ -1,9 +1,10 @@
 .heroPage {
-  padding: 270px 0 0 70px;
+  padding: 200px 0 0 70px;
   text-align: left;
+
   &__titles {
     width: 550px;
-    font-family: var(--heading_font);
+
     font-style: normal;
     line-height: normal;
     text-align: left;
@@ -11,12 +12,20 @@
   &__title {
     font-size: var(--title_size_1);
     font-weight: var(--text_weight_bold);
+    padding-bottom: 25px;
   }
   &__text {
-    padding: 0 50px 0 0;
+    padding: 0 50px 24px 0;
     font-size: var(--text-size_1);
     font-weight: var(--text_weight_normal);
     line-height: var(----text_height);
     color: var(--gray);
+    line-height: 26px;
+  }
+}
+@media (max-width: 768px) {
+  .heroPage {
+    background-color: aqua;
+    padding: 105px 0 0 0;
   }
 }

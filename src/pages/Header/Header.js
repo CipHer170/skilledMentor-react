@@ -8,7 +8,7 @@ function Header() {
     <div>
       <BaseContainer>
         <div className="header">
-          <img src={image} alt="retry" />
+          <img src={image} alt="retry" className="logo" />
           <button className="btn btn__darkblue">Get started</button>
         </div>
       </BaseContainer>
