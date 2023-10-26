@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap");
+
 :root {
   // --------------------COLORS------------------------
   --bluegray: #666ca3;
@@ -26,7 +28,9 @@
   --title_size_1: 56px;
   --title_size_2: 40px;
   --title_size_3: 32px;
-  --title_size_4: 24px;
+  --title_size_4: 28px;
+  --title_size_5: 24px;
+
   // title weight
   --title_weight: 800;
   // title height
@@ -46,6 +50,8 @@
 .App {
   font-feature-settings: "clig" off, "liga" off;
   font-family: var(--heading_font);
+  padding: 0 auto;
+  margin: 0 auto;
 }
 
 // heading default
@@ -53,26 +59,23 @@
 // btn default
 
 .btn {
-  width: 167px;
-  height: 56px;
+  padding: 14px 31.5px;
   flex-shrink: 0;
   color: var(--white);
-
+  font-size: var(--text-size_2);
+  border: 0;
   &__darkblue {
     border-radius: 28px;
     background: var(--darkblue);
-    border-color: var(--darkblue);
   }
 
   &__darkblue:hover {
     background: var(--bluegray);
-    border-color: var(--bluegray);
   }
 
   &__redgradient {
     border-radius: 31.5px;
     background: var(--redgradient);
-    border-color: var(--redgradient);
   }
   &__redgradient:hover {
     background: var(--pinkgradient);
@@ -80,10 +83,8 @@
   &__bluegradient {
     border-radius: 28px;
     background: var(--bluegradient);
-    border-color: var(--bluegradient);
   }
   &__bluegradient:hover {
     background: var(--lightbluegradient);
-    border-color: var(--lightbluegradient);
   }
 }

@@ -1,18 +1,18 @@
 import React from "react";
 import BaseContainer from "../../components/BaseContainer/BaseContainer";
-import "../Header/Header.scss";
+import "./Footer.scss";
 
-function Header() {
+function Footer() {
   return (
-    <div className="header">
+    <div className="footer">
       <BaseContainer>
-        <div className="header__container">
+        <div className="footer__container">
           <div className="logo"> skilled</div>
-          <button className="btn btn__darkblue">Get started</button>
+          <button className="btn btn__bluegradient">Get started</button>
         </div>
       </BaseContainer>
     </div>
   );
 }
 
-export default Header;
+export default Footer;

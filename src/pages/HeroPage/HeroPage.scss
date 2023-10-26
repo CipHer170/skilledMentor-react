@@ -1,31 +1,18 @@
-.heroPage {
-  padding: 200px 0 0 70px;
+.heroTitle {
+  padding: 38px 0 26px 0;
   text-align: left;
 
-  &__titles {
-    width: 550px;
-
-    font-style: normal;
-    line-height: normal;
-    text-align: left;
-  }
   &__title {
-    font-size: var(--title_size_1);
+    font-size: var(--title_size_2);
     font-weight: var(--text_weight_bold);
     padding-bottom: 25px;
   }
   &__text {
-    padding: 0 50px 24px 0;
-    font-size: var(--text-size_1);
-    font-weight: var(--text_weight_normal);
-    line-height: var(----text_height);
-    color: var(--gray);
+    padding: 0 0 24px 0;
+    font-size: var(--text-size_2);
+    font-weight: var(---text_weight_normal);
     line-height: 26px;
-  }
-}
-@media (max-width: 768px) {
-  .heroPage {
-    background-color: aqua;
-    padding: 105px 0 0 0;
+    color: var(--gray);
+    letter-spacing: 1.5px;
   }
 }

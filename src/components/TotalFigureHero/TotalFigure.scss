@@ -1,6 +1,6 @@
 .figure {
   z-index: 2;
-
+  
   &__blue {
     transform: rotate(45deg);
     flex-shrink: 0;
@@ -20,6 +20,9 @@
     background-color: var(--white);
     border-radius: 15px;
     font-size: 20px;
+    p {
+      font-size: var(--title-size_3);
+    }
   }
   .members {
   }

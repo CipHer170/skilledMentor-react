@@ -2,7 +2,7 @@ import React from "react";
 
 function HeroTitle() {
   return (
-    <div className="heroTitle__titles">
+    <div className="heroTitle">
       <div className="heroTitle__title">Maximize skill, minimize budget</div>
       <div className="heroTitle__text">
         Our modern courses across a range of in-demand skills will give you the
