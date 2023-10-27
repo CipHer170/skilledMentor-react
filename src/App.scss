@@ -1,11 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap");
 
 :root {
   // --------------------COLORS------------------------
   --bluegray: #666ca3;
   --darkblue: #13183f;
   --gray: #83869a;
-  --pink: #ffa7c3;
+  --lightpink: #ffa7c3;
+  --pink: #f74780;
   --white: #fff;
   --redgradient: linear-gradient(180deg, #ff6f48 0.04%, #f02aa6 100%);
   --pinkgradient: linear-gradient(
@@ -30,6 +31,8 @@
   --title_size_3: 32px;
   --title_size_4: 28px;
   --title_size_5: 24px;
+  --title_size_6: 22px;
+  --title_size_7: 20px;
 
   // title weight
   --title_weight: 800;
@@ -41,17 +44,28 @@
   // text weight
   --text_weight_normal: 500;
   --text_weight_bold: 700;
+  --text_weight_extrabold: 800;
   // text height
-  --text_height: 28px;
+  --text_height_1: 26px;
+  --text_height_2: 28px;
+  --text_height_3: 30px;
+  --text_height_4: 32px;
 }
 
 // ---------------STYLES-------------------
+h1,
+h2,
+h3,
+h4,
+p {
+  padding: 0;
+  margin: 0;
+}
 
 .App {
   font-feature-settings: "clig" off, "liga" off;
   font-family: var(--heading_font);
-  padding: 0 auto;
-  margin: 0 auto;
+  background: linear-gradient(180deg, #fff 0%, #f0f1ff 100%);
 }
 
 // heading default
