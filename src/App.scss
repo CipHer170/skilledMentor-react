@@ -77,7 +77,11 @@ p {
   flex-shrink: 0;
   color: var(--white);
   font-size: var(--text-size_2);
+  font-weight: var(--text_weight_bold);
+  line-height: var(--text_height_2);
+  font-family: var(--heading_font);
   border: 0;
+
   &__darkblue {
     border-radius: 28px;
     background: var(--darkblue);
