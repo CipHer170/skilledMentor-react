@@ -24,6 +24,12 @@
     gap: 25px;
     margin-right: 11px;
   }
+  &__title {
+    color: var(--13183F, #13183f);
+    font-size: 40px;
+    font-weight: var(--text_weight_extrabold);
+    padding-right: 72px;
+  }
   &__text {
     color: var(--83869A, #83869a);
     font-family: Plus Jakarta Sans;
