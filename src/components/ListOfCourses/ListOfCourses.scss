@@ -29,9 +29,12 @@
   &__btn {
     background: var(--pink);
     -webkit-background-clip: text;
+    background-clip: append;
     -webkit-text-fill-color: transparent;
     font-size: var(----text-size_1);
     font-weight: var(--text_weight_bold);
     margin-bottom: 32px;
+  }
+  @media (max-width: 767px) {
   }
 }
