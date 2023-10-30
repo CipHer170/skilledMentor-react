@@ -53,9 +53,10 @@
     padding-right: 45px;
   }
 
-  @media (min-width: 767px) and (max-width: 1023px) {
+  @media (min-width: 767px) {
     flex-direction: row;
     z-index: 3;
+    overflow: visible;
     &__blue {
       width: 216.54px;
       height: 588.557px;
@@ -64,8 +65,6 @@
       border-radius: 158.5px;
       background: var(--bluegradient);
       display: block;
-      // background-color: blue;
-      display: block; // background-color: blue;
       position: absolute;
       right: -131.5px;
       top: -151.7px;
