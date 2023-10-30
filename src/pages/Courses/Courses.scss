@@ -12,7 +12,7 @@
     font-weight: var(--text_weight_extrabold);
     line-height: var(--text_height_4);
   }
-  @media (max-width: 767px) {
+  @media (min-width: 767px) {
     &__container {
       margin-top: 115px;
       display: grid;
