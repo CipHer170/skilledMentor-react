@@ -8,8 +8,10 @@ function HeroPage() {
   return (
     <div className="heroPage">
       <BaseContainer>
-        <HeroTitle />
-        <TotalFigure />
+        <div className="heroPage__container">
+          <HeroTitle />
+          <TotalFigure />
+        </div>
       </BaseContainer>
     </div>
   );
