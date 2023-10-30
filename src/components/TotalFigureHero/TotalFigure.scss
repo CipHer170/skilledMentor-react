@@ -51,7 +51,7 @@
     left: 0;
     padding-right: 45px;
   }
-  @media (max-width: 767px) {
+  @media (min-width: 374px) and (max-width: 767px) {
     flex-direction: row;
     z-index: 3;
 
@@ -62,8 +62,7 @@
       flex-shrink: 0;
       border-radius: 158.5px;
       background: var(--bluegradient);
-      display: block;
-      // background-color: blue;
+      display: block; // background-color: blue;
       position: absolute;
       right: -131.5px;
       top: -151.7px;
