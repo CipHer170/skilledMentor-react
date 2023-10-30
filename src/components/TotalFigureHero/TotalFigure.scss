@@ -4,6 +4,9 @@
   align-items: center;
   position: relative;
 
+  &_blue {
+    display: none;
+  }
   &__red {
     width: 253px;
     height: 253px;
@@ -49,7 +52,7 @@
     left: 0;
     padding-right: 45px;
   }
-  @media (max-width: 767px) {
+  @media (min-width: 767px) and (max-width: 1023px) {
     flex-direction: row;
     z-index: 3;
     &__blue {
@@ -59,6 +62,7 @@
       flex-shrink: 0;
       border-radius: 158.5px;
       background: var(--bluegradient);
+      display: block;
       // background-color: blue;
       position: absolute;
       right: -131.5px;

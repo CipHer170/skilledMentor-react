@@ -15,7 +15,7 @@
     color: var(--gray);
     letter-spacing: 1.5px;
   }
-  @media (max-width: 767px) {
+  @media (min-width: 767px) and (max-width: 1023px) {
     display: flex;
     width: 485px;
     flex-direction: column;
@@ -39,8 +39,9 @@
     line-height: 26px;
   }
 }
-@media (max-width: 767px) {
+@media (min-width: 767px) and (max-width: 1023px) {
   .heroPage {
+    overflow: hidden;
     &__container {
       display: flex;
       margin-top: 67px;
