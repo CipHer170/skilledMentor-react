@@ -14,4 +14,7 @@
     font-weight: var(--text_weight_extrabold);
     line-height: normal;
   }
+  @media (min-width: 1023px) {
+    padding: 0 145px;
+  }
 }
