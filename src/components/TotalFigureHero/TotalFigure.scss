@@ -85,13 +85,14 @@
     font-weight: var(--text_weight_bold);
     line-height: var(--text_height);
     font-size: 14px;
-    z-index: inherit;
-    p {
-      margin: 0;
-      font-size: var(--title_size_3);
-      color: var(--darkblue);
-      font-weight: var(--text_weight_bold);
-    }
+    z-index: 3;
+  }
+
+  p {
+    margin: 0;
+    font-size: var(--title_size_3);
+    color: var(--darkblue);
+    font-weight: var(--text_weight_bold);
   }
 }
 
