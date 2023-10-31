@@ -53,7 +53,7 @@
     margin-top: 67px;
     @media (min-width: 767px) {
       display: flex;
-      flex-direction: row;
+      gap: 11px;
     }
     @media (min-width: 1023px) {
       padding: 0 145px;
