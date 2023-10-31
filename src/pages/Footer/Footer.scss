@@ -1,0 +1,16 @@
+.footer {
+  padding: 43px 0;
+  background-color: var(--darkblue);
+  &__container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    color: var(--white);
+    font-size: var(--title_size_4);
+    font-weight: var(--text_weight_bold);
+    line-height: normal;
+  }
+}

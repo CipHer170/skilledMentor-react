@@ -1,0 +1,36 @@
+.courses {
+  margin-top: 66px;
+  margin-bottom: 16px;
+
+  &__title {
+    padding: 24px 29px 32px 28px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    background: var(--redgradient);
+    color: var(--white);
+    font-size: var(--title_size_5);
+    font-weight: var(--text_weight_extrabold);
+    line-height: var(--text_height_4);
+    @media (min-width: 767px) {
+      padding-top: 56px;
+    }
+  }
+  &__container {
+    @media (min-width: 767px) {
+      margin-top: 115px;
+      display: grid;
+      gap: 10px;
+      grid-template-columns: auto auto;
+    }
+    @media (min-width: 1023px) {
+      grid-template-columns: auto auto auto;
+      gap: 30px;
+      display: grid;
+      // padding: 0 145px;
+    }
+
+    // &__title {
+    //   padding-top: 56px;
+    // }
+  }
+}

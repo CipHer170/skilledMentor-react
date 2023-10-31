@@ -10,10 +10,11 @@ function TotalFigure() {
       </div>
       <div className="figure__info members">
         Members <br />
-        29k
+        <p> 29k</p>
       </div>
       <div className="figure__info hours">
-        Course Hours <br /> 1,451
+        Course Hours <br />
+        <p>1,451</p>
       </div>
     </div>
   );

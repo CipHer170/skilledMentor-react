@@ -1,0 +1,40 @@
+.course {
+  margin-bottom: 40px;
+  padding: 32px 28px;
+  background: var(--FFFFFF, #fff);
+  box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+  border-radius: 10px;
+  position: relative;
+  &__icon {
+    padding: 0 0 24px 0;
+    position: absolute;
+    top: -30px;
+  }
+  &__title {
+    padding: 0 0 16px 0;
+    color: var(--bluegradient);
+    font-size: var(--title_size_7);
+    font-weight: var(--text_weight_extrabold);
+    line-height: normal;
+  }
+  p {
+    width: 286px;
+    color: var(--gray);
+    font-size: var(--text-size_2);
+    font-weight: var(--text_weight_normal);
+    line-height: var(--text_height_1);
+    font-size: var(--text-size_2);
+    margin-bottom: 24px;
+  }
+  &__btn {
+    background: var(--pink);
+    -webkit-background-clip: text;
+    background-clip: append;
+    -webkit-text-fill-color: transparent;
+    font-size: var(----text-size_1);
+    font-weight: var(--text_weight_bold);
+    margin-bottom: 32px;
+  }
+  @media (min-width: 767px) {
+  }
+}
