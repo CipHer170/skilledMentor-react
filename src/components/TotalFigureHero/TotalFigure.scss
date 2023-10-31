@@ -3,7 +3,6 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-
   @media (min-width: 767px) {
     flex-direction: row;
     z-index: 3;
@@ -12,18 +11,24 @@
 
   &__blue {
     display: none;
+    transform: rotate(45deg);
+    flex-shrink: 0;
+    border-radius: 158.5px;
+    background: var(--bluegradient);
+    position: absolute;
+    z-index: 1;
     @media (min-width: 767px) {
+      display: block;
       width: 216.54px;
       height: 588.557px;
-      transform: rotate(45deg);
-      flex-shrink: 0;
-      border-radius: 158.5px;
-      background: var(--bluegradient);
-      display: block;
-      position: absolute;
       right: -131.5px;
       top: -151.7px;
-      z-index: 1;
+    }
+    @media (min-width: 1023px) {
+      width: 317px;
+      height: 1008px;
+      right: -248.5px;
+      top: -348.7px;
     }
   }
   &__red {
@@ -33,14 +38,14 @@
     border-radius: 158.5px;
     background: var(--redgradient);
     overflow: hidden;
+    z-index: 2;
     @media (min-width: 767px) {
       width: 216.54px;
       height: 382.531px;
-      flex-shrink: 0;
-      border-radius: 158.5px;
-      background: var(--redgradient);
-      overflow: hidden;
-      z-index: 2;
+    }
+    @media (min-width: 1023px) {
+      width: 317px;
+      height: 560px;
     }
   }
   &__hero {
@@ -52,13 +57,20 @@
     left: 18px;
 
     @media (min-width: 767px) {
-      width: 238.723px;
-      height: 329.933px;
       object-fit: contain;
       position: relative;
       bottom: 0;
       left: 0;
       top: 56px;
+    }
+    @media (min-width: 1023px) {
+      width: 349.474px;
+      height: 483px;
+      object-fit: contain;
+      position: relative;
+      bottom: 0;
+      left: 0;
+      top: 86px;
     }
   }
 
