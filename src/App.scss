@@ -64,6 +64,7 @@
   font-feature-settings: "clig" off, "liga" off;
   font-family: var(--heading_font);
   background: linear-gradient(180deg, #fff 0%, #f0f1ff 100%);
+  overflow: hidden;
 }
 
 // heading default

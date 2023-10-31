@@ -46,14 +46,15 @@
 }
 
 .heroPage {
-  @media (min-width: 767px) {
-    overflow: hidden;
-  }
   @media (min-width: 1023px) {
     overflow: visible;
   }
   &__container {
     margin-top: 67px;
+    @media (min-width: 767px) {
+      display: flex;
+      flex-direction: row;
+    }
     @media (min-width: 1023px) {
       padding: 0 145px;
       display: flex;
